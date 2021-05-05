@@ -150,7 +150,7 @@
     // Determine specified search term
     var searchTerm = $(this).val();
     // Highlight search term inside a specific context
-    $("#title").unmark().mark(searchTerm);
+    $("#context").unmark().mark(searchTerm);
   }).trigger("input.highlight").focus();
 });
 
@@ -177,6 +177,7 @@ mark {
     <br><br><br><br><br>
 
     <!-- PDF HERE -->
+    <div id="context">
     <div class="bookshelf">
         <div class="covers">
           <div class="thumb book-1">
@@ -267,7 +268,7 @@ mark {
           </div>
         </div>
         <img class="shelf-img" src="images/shelf_metal.png">
-    </div>
+    </div></div>
     <!-- End Of PDF -->
 
     <!-- Pagination -->
