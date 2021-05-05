@@ -130,33 +130,14 @@
 <link rel="shortcut icon" href="images/Logo.svg">
 <title>Home</title>
 
-<!-- 
+
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="search/jssearch.js"></script>
 	<script src="search/jssearch.index.js"></script>
-
-	<script type="text/javascript">
-
-		$( document ).ready(function() {
-			$('#searchbox').on("keyup", function() {
-				var result = jssearch.search($(this).val());
-
-				$('#query').html(jssearch.queryWords.join(' '));
-
-				$('#results').html('');
-				var i = 0;
-				result.forEach(function(item) {
-					if (i++ > 20) {
-						return;
-					}
-					var div = $('#results');
-					div.html(div.html() + '<li>"' + item.file.title + '" ' + item.file.url + ' w:' + item.weight + '</li>');
-				});
-			});
-		});
-	</script>
-	 -->
-<script function search() {
+	
+  <script>
+	
+	function search() {
  
    var name = document.getElementById("searchForm").elements["searchItem"].value;
    var pattern = name.toLowerCase();
@@ -173,8 +154,10 @@
       }
    }  
 }
-
-</script>
+	</script>
+	
+	
+	
 </head>
 	<body>
 
