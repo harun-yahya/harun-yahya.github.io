@@ -129,7 +129,30 @@
 </style>
 <link rel="shortcut icon" href="images/Logo.svg">
 <title>Home</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="search/jssearch.js"></script>
+	<script src="search/jssearch.index.js"></script>
 
+	<script type="text/javascript">
+
+		$( document ).ready(function() {
+			$('#searchbox').on("keyup", function() {
+				var result = jssearch.search($(this).val());
+
+				$('#query').html(jssearch.queryWords.join(' '));
+
+				$('#results').html('');
+				var i = 0;
+				result.forEach(function(item) {
+					if (i++ > 20) {
+						return;
+					}
+					var div = $('#results');
+					div.html(div.html() + '<li>"' + item.file.title + '" ' + item.file.url + ' w:' + item.weight + '</li>');
+				});
+			});
+		});
+	</script>
 </head>
 	<body>
 
@@ -142,7 +165,24 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+       <!-- search start -->
+      
+<label for="searchbox" style="display: inline-block; width: 160px;">Search: </label>
+	<input id="searchbox" type="text" value="">
 
+	<br/>
+
+	<label for="query" style="display: inline-block; width: 160px;">Actual query: </label>
+	<span id="query"></span>
+
+	<ul id="results">
+		<li>No results</li>
+	</ul>
+	
+	
+       <!-- search stop-->
+       
+       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="form-inline ml-auto">
           <input class="form-control mr-sm-2" type="search" placeholder="Search PDF..." aria-label="Search">
