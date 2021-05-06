@@ -1,1 +1,5 @@
 Sitemap: https://hy-corpus.github.io/sitemap.xml
+
+
+# robotstxt.org/
+User-agent: *
