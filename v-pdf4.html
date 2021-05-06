@@ -26,7 +26,7 @@
       $(document).ready(function () {
           $("#read").flipBook({
             //Layout Setting
-            pdfUrl:'pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf',
+            pdfUrl:'https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf',
             lightBox:true,
             layout:3,
             currentPage:{vAlign:"bottom", hAlign:"left"},
@@ -59,24 +59,24 @@
             },
             facebook : {
               enabled: true,
-              url: "pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
             },
             google_plus : {
               enabled: false
             },
             email : {
               enabled: true,
-              url: "pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf",
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf",
               title: "PDF",
               description: "A-CALL-FOR-A-TURKISH-ISLAMIC-UNION pdf"
             },
             twitter : {
               enabled: true,
-              url: "pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
             },
             pinterest : {
             enabled: true,
-            url: "pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+            url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
             }
         });
       })
@@ -107,48 +107,7 @@
   </style>
 
 
-  <!-- count -->
-
-<title>VISIT COUNTER</title>
-<style>
-.counter{
-background-color:white;
-color:blue;
-font-weight:bold;}
-</style>
-
-<script>
-expireDate = new Date
-expireDate.setMonth(expireDate.getMonth()+6)
-jcount = eval(cookieVal("jaafarCounter"))
-jcount++
-document.cookie = "jaafarCounter="+jcount+";expires=" + expireDate.toGMTString()
-
-function cookieVal(cookieName) {
-thisCookie = document.cookie.split("; ")
-for (i=0; i<thisCookie.length; i++){
-if (cookieName == thisCookie[i].split("=")[0]){
-return thisCookie[i].split("=")[1]
-}
-}
-return 0
-}
-
-function page_counter(){
-for (i=0;i<(7-jcount.toString().length);i++)
-document.write('<span class="counter">0</span>')
-for (y=0;y<(jcount.toString().length);y++)
-document.write('<span class="counter">'+jcount.toString().charAt(y)+'</span>')
-}
-</script>
-
-<script>
-page_counter(jcount);
-</script>
-
-
-  <!-- count -->
-
+ 
   </head>
 
   <body>
@@ -181,7 +140,7 @@ page_counter(jcount);
             <!-- Button -->
             <div class="button">
               <a id="read" class="btn btn-primary mt-2 text-white">READ PDF <i class="fas fa-book-reader fa-lg"></i></a>
-              <a href="pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf" class="btn btn-primary mt-2 text-white" download>DOWNLOAD PDF <i class="fas fa-download fa-lg"></i></a>
+              <a href="https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf" class="btn btn-primary mt-2 text-white" download>DOWNLOAD PDF <i class="fas fa-download fa-lg"></i></a>
             </div>
             <!-- Description -->
             <strong><p id="description">This book deals with the Muslim world’s need for the establishment of
