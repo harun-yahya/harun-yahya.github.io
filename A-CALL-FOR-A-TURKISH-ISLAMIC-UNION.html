@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <link rel="shortcut icon" href="images/Logo.svg">
+  <title>View PDF</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- AJAX -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <!-- costume css -->
+  <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Include JS -->
+  <script src="js/flipbook.min.js"></script>
+
+  <script>
+
+      $(document).ready(function () {
+          $("#read").flipBook({
+            //Layout Setting
+            pdfUrl:'https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf',
+            lightBox:true,
+            layout:3,
+            currentPage:{vAlign:"bottom", hAlign:"left"},
+            // BTN SETTING
+            btnShare : {enabled:false},
+            btnPrint : {
+              hideOnMobile:true
+            },
+            btnDownloadPages : {
+              enabled: true,
+              title: "Download pages",
+              icon: "fa-download",
+              icon2: "file_download",
+              url: "https://hy-corpus.github.io/images/REF.zip",
+              name: "REF.zip",
+              hideOnMobile:false
+            },
+            btnColor:'rgb(255,120,60)',
+            sideBtnColor:'rgb(255,120,60)',
+            sideBtnSize:60,
+            sideBtnBackground:"rgba(0,0,0,.7)",
+            sideBtnRadius:60,
+            btnSound:{vAlign:"top", hAlign:"left"},
+            btnAutoplay:{vAlign:"top", hAlign:"left"},
+            // SHARING
+            btnShare : {
+              enabled: true,
+              title: "Share",
+              icon: "fa-share-alt"
+            },
+            facebook : {
+              enabled: true,
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+            },
+            google_plus : {
+              enabled: false
+            },
+            email : {
+              enabled: true,
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf",
+              title: "PDF",
+              description: "A CALL FOR A TURKISH ISLAMIC UNION pdf"
+            },
+            twitter : {
+              enabled: true,
+              url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+            },
+            pinterest : {
+            enabled: true,
+            url: "https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf"
+            }
+        });
+      })
+  </script>
+
+  <style>
+    body {
+      background-color: #f6f6f6;
+    }
+    #author {
+      font-size: 15px;
+      font-weight: bold;
+      color: #0186c9;
+    }
+    #date {
+      margin-left: 10px;
+      font-size: 15px;
+      color: #819196;
+    }
+    #size {
+      font-size: 15px;
+      color: #819196;
+    }
+    #description {
+      margin-top: 20px;
+      font-weight: lighter;
+    }
+  </style>
+
+
+ 
+  </head>
+
+  <body>
+
+	
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="LOGO" width="150">
+    </a>
+  </nav>
+  <!-- End Of Navbar -->
+
+  <br><br><br><br><br>
+
+  <!-- PDF INFORMATION -->
+  <section class="info" id="info">
+    <div class="container">
+      <div class="card shadow">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/book2/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.jpg" class="w-100 book-1">
+          </div>
+          <div class="col-md-7 mt-3">
+            <!-- Info -->
+            <h3 id="title">A CALL FOR A TURKISH ISLAMIC UNION</h3>
+            <p id="author" class="d-inline">ADNAN OKTAR (HARUN YAHYA)</p>
+            <p id="date" class="d-inline">2010</p>
+            <p id="size"><i class="fas fa-file "></i> File Size <b>5.2MB</b></p>
+            <!-- Button -->
+            <div class="button">
+              <a id="read" class="btn btn-primary mt-2 text-white">READ PDF <i class="fas fa-book-reader fa-lg"></i></a>
+              <a href="https://hy-corpus.github.io/pdf/A-CALL-FOR-A-TURKISH-ISLAMIC-UNION.pdf" class="btn btn-primary mt-2 text-white" download>DOWNLOAD PDF <i class="fas fa-download fa-lg"></i></a>
+            </div>
+            <!-- Description -->
+            <strong><p id="description">This book deals with the Muslim world’s need for the establishment of
+a Turkish Islamic Union and its importance for world peace in the light of
+the political, sociological and economic facts.
+The current situation clearly suggests that Muslims will influence the
+developments of the twenty-first century in one way or another. However,
+what really matters here is that this influence must benefit the Islamic
+world in particular and humanity in general. The first thing that comes to
+mind at this stage is whether the Islamic world can play such a role, given
+its present condition. No doubt, Muslims have the necessary ability and
+awareness to shoulder this responsibility. 
+</p><strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF PDF INFORMATION -->
+
+  <!-- Footer -->
+  <section id="footer" class="footer mt-5">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>HARUN YAHYA</h5>
+          <ul class="list-unstyled quick-links">
+          <li><a href="https://harun-yahya.net/bilgi/about-the-author"><i class="fa fa-blog"></i>About</a></li>
+          
+           <li><a href='https://www.symptoma.com.tr/tr/info/covid-19#info'>COVID-19</a></li> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=cb683886fcae3a5436d97c6c120fb8352d3b8dda'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/823992/t/4"></script>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>SITES</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="https://harunyahya.ru">RU <i class="fa fa-blog"></i>https://harunyahya.ru</a></li>
+            <li><a href="https://harunyahya.info">TR <i class="fa fa-blog"></i>https://harunyahya.info</a></li>
+            <li><a href="http://harun-yahya.net">EN <i class="fa fa-blog"></i>http://harun-yahya.net</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>OTHER</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="https://www.google.com/maps/place/%C4%B0stanbul/@41.0055005,28.7319852,10z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0089207!4d28.9764404"><i class="fas fa-map-marker-alt"></i></i>ISTANBUL\TURKEY</a></li>
+            <li><a href="https://harunyahya.ru"><i class="fab fa-internet-explorer"></i>www.secretbeyondmatter.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/user/vdemir"><i class="fab fa-youtube-square"></i></a></li>
+
+          </ul>
+        </div>
+        </hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          
+          
+        </div>
+        </hr>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Footer -->
+
+  <!-- Optional Javascript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  
+
+  </body>
+
+</html>
