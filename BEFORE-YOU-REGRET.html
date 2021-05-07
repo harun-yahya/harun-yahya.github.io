@@ -150,15 +150,28 @@
               <a href="https://hy-corpus.github.io/pdf/BEFORE-YOU-REGRET.pdf" class="btn btn-primary mt-2 text-white" download>DOWNLOAD <i class="fas fa-download fa-lg"></i></a>
              
               <a href="https://duckduckgo.com/?q=BEFORE+YOU+REGRET+site%3Ahttps%3A%2F%2Fharun-yahya.net&ia=web" class="btn btn-info mt-2 text-white">MORE <i class="fa fa-info fa-lg"></i></a>
-              Audio Book
-              <audio controls preload="none" style=" width:30px;">
-              
-	      <source src="https://hy-corpus.github.io/mp3/audio-book/BEFORE-YOU-REGRET.ogg" type="audio/ogg" class="btn btn-info mt-2 text-white">
-	
-              <source src="https://hy-corpus.github.io/mp3/audio-book/BEFORE-YOU-REGRET.mp3" type="audio/mpeg"/>
-	
-	Your browser does not support the audio element.
-</audio><br />
+             <audio id="myAudio">
+  <source src="https://hy-corpus.github.io/mp3/audio-book/BEFORE-YOU-REGRET.ogg" type="audio/ogg">
+  <source src="https://hy-corpus.github.io/mp3/audio-book/BEFORE-YOU-REGRET.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Audio Book</p>
+
+<button onclick="playAudio()" type="button">Play</button>
+<button onclick="pauseAudio()" type="button">Pause</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
 
             </div>
             <!-- Description -->
