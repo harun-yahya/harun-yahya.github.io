@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <link rel="shortcut icon" href="images/Logo.svg">
+  <title>A CHAIN OF MIRACLES</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- AJAX -->
+  <script src="script/jquery-1.x-git.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <!-- costume css -->
+  <link rel="stylesheet" href="css/flipbook.style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Include JS -->
+  <script src="js/flipbook.min.js"></script>
+
+  <script>
+
+      $(document).ready(function () {
+          $("#read").flipBook({
+            //Layout Setting
+            pdfUrl:'pdf/A-CHAIN-OF-MIRACLES.pdf',
+            lightBox:true,
+            layout:3,
+            currentPage:{vAlign:"bottom", hAlign:"left"},
+            // BTN SETTING
+            btnShare : {enabled:false},
+            btnPrint : {
+              hideOnMobile:true
+            },
+            btnDownloadPages : {
+              enabled: true,
+              title: "Download pages",
+              icon: "fa-download",
+              icon2: "file_download",
+              url: "pdf/A-CHAIN-OF-MIRACLES.pdf",
+              name: "A-CHAIN-OF-MIRACLES.pdf",
+              hideOnMobile:false
+            },
+            btnColor:'rgb(255,120,60)',
+            sideBtnColor:'rgb(255,120,60)',
+            sideBtnSize:60,
+            sideBtnBackground:"rgba(0,0,0,.7)",
+            sideBtnRadius:60,
+            btnSound:{vAlign:"top", hAlign:"left"},
+            btnAutoplay:{vAlign:"top", hAlign:"left"},
+            // SHARING
+            btnShare : {
+              enabled: true,
+              title: "Share",
+              icon: "fa-share-alt"
+            },
+            facebook : {
+              enabled: true,
+              url: "A-CHAIN-OF-MIRACLES.html"
+            },
+            google_plus : {
+              enabled: false
+            },
+            email : {
+              enabled: true,
+              url: "pdf/A-CHAIN-OF-MIRACLES.pdf",
+              title: "PDF",
+              description: "A CHAIN OF MIRACLES pdf"
+            },
+            twitter : {
+              enabled: true,
+              url: "A-CHAIN-OF-MIRACLES.html"
+            },
+            pinterest : {
+            enabled: true,
+            url: "A-CHAIN-OF-MIRACLES.html"
+            }
+        });
+      })
+  </script>
+
+  <style>
+    body {
+      background-color: #f6f6f6;
+    }
+    #author {
+      font-size: 15px;
+      font-weight: bold;
+      color: #0186c9;
+    }
+    #date {
+      margin-left: 10px;
+      font-size: 15px;
+      color: #819196;
+    }
+    #size {
+      font-size: 15px;
+      color: #819196;
+    }
+    #description {
+      margin-top: 20px;
+      font-weight: lighter;
+    }
+  </style>
+
+
+ 
+  </head>
+
+  <body>
+
+	
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="LOGO" width="150">
+    </a>
+  </nav>
+  <!-- End Of Navbar -->
+
+  <br><br><br><br><br>
+
+  <!-- PDF INFORMATION -->
+  <section class="info" id="info">
+    <div class="container">
+      <div class="card shadow">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/BOOKS/A-CHAIN-OF-MIRACLES.jpg" alt="A CHAIN OF MIRACLES" class="w-100 book-1">
+          </div>
+          <div class="col-md-7 mt-3">
+            <!-- Info -->
+            <h3 id="title">A CHAIN OF MIRACLES</h3>
+            <p id="author" class="d-inline">by ADNAN OKTAR (HARUN YAHYA)</p>
+            <p id="date" class="d-inline">October, 2006</p>
+            <p id="size"><i class="fas fa-file "></i> File Size <b>2.6MB</b></p>
+            <!-- Button -->
+            <div class="button">
+              <a id="read" class="btn btn-primary mt-2 text-white">READ <i class="fas fa-book-reader fa-lg"></i></a>
+              <a href="pdf/A-CHAIN-OF-MIRACLES.pdf" class="btn btn-primary mt-2 text-white" download>DOWNLOAD <i class="fas fa-download fa-lg"></i></a>
+              
+              <a href="//duckduckgo.com/?q=A+CHAIN+OF+MIRACLES+site%3Aharun-yahya.net&ia=web" class="btn btn-info mt-2 text-white"><i class="fa fa-info fa-lg"></i> </a>
+              
+            </div>
+            <hr>
+            <!-- Description -->
+            <strong><p id="description">The universe, the Milky Way galaxy that is home to our
+solar system, and our planet Earth are all governed by countless factors. All these laws and balances have been specifically designed and miraculously ordered to produce an environment suitable for human life.
+Examining our universe in detail reveals that everything —from the most fundamental cosmic laws to the most critical physical properties, from the smallest balances to the finest ratios therein— have been arranged to meet the highest level of exactness. We are astonished to realize that this precision is set at
+the ideal values for human existence to not only survive, but thrive.
+</p></strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF PDF INFORMATION -->
+
+  <!-- Footer -->
+  <section id="footer" class="footer mt-5">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>HARUN YAHYA</h5>
+          <ul class="list-unstyled quick-links">
+          <li><a href="//harun-yahya.net/bilgi/about-the-author"><i class="fa fa-blog"></i>About</a></li>
+          
+          <li> 
+          <!-- Counter -->
+            <a href='//www.symptoma.com.tr/tr/info/covid-19#info'>Koronavirüsler</a> <script src='//www.freevisitorcounters.com/auth.php?id=22d0a7d8997a2f3406afab7410ec2aa338efd759'></script>
+<script type="text/javascript" src="//www.freevisitorcounters.com/en/home/counter/825183/t/1"></script>
+<!-- Counter -->
+</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>SITES</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="//harunyahya.ru">RU <i class="fa fa-blog"></i>harunyahya.ru</a></li>
+            <li><a href="//harunyahya.info">TR <i class="fa fa-blog"></i>harunyahya.info</a></li>
+            <li><a href="//harun-yahya.net">EN <i class="fa fa-blog"></i>harun-yahya.net</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>OTHER</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="//www.google.com/maps/place/%C4%B0stanbul/@41.0055005,28.7319852,10z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0089207!4d28.9764404"><i class="fas fa-map-marker-alt"></i></i>ISTANBUL\TURKEY</a></li>
+            <li><a href="//www.secretbeyondmatter.com"><i class="fab fa-internet-explorer"></i>www.secretbeyondmatter.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="//www.instagram.com/a9tvhaber"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="//twitter.com/a9tvenglish"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="list-inline-item"><a href="//www.facebook.com/a9tv.global/"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="list-inline-item"><a href="//www.youtube.com/c/A9TVEnglish/videos"><i class="fab fa-youtube-square"></i></a></li>
+
+          </ul>
+        </div>
+        </hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          
+          
+        </div>
+        </hr>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Footer -->
+
+  <!-- Optional Javascript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  
+
+  </body>
+
+</html>
