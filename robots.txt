@@ -7,3 +7,14 @@ User-agent: *
 Disallow: /www.freevisitorcounters.com
 
 Disallow: /viewer
+
+# AdsBot
+User-agent: AdsBot-Google
+Disallow: /viewer
+
+# Crawlers of certain social media sites are allowed to access page markup when google.com/imgres* links are shared. To learn more, please contact images-robots-allowlist@google.com.
+User-agent: Twitterbot
+Disallow: /viewer
+
+User-agent: facebookexternalhit
+Disallow: /viewer
