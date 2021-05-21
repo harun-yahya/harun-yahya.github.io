@@ -1,3 +1,6 @@
 https://dashboard.heroku.com/apps/counter2000
 
 union2024@protonmail.com:20552055V!v
+
+ sh ./heroku run --app=counter2000 ./manage.py registeradmin yolyasemin6@gmail.com
+
