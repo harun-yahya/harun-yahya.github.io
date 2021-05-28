@@ -1,3 +1,4 @@
 https://www.google.com/ping?sitemap=https://hy-corpus.github.io/sitemap.xml
 
 https://www.google.com/ping?sitemap=https://flipbooks.bitbucket.io/sitemap.xml
+https://www.google.com/ping?sitemap=https://flipbooks.bitbucket.io/sitemap.xml
