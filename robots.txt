@@ -1,4 +1,4 @@
-Sitemap: https://hy-corpus.github.io/sitemap.xml
+Sitemap: https://harun-yahya.github.io/sitemap.xml
 
 
 # robotstxt.org/
