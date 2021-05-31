@@ -1,0 +1,4 @@
+python3 -m venv /home/zeki/Belgeler
+source /home/zeki/Belgeler/bin/activate
+pip3 install pillow optimize-images
+ optimize-images . -mw 255
