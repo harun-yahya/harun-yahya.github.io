@@ -4,3 +4,4 @@ Sitemap: https://harun-yahya.github.io/sitemap.xml
 # robotstxt.org/
 User-agent: *
 
+Disallow: https://web-security-reports.services.atlassian.com
