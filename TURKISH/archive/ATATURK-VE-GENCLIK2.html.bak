@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr" prefix="og: httpss://ogp.me/ns# book: httpss://ogp.me/ns/book#">
+<html lang="tr" prefix="og: https://ogp.me/ns# book: https://ogp.me/ns/book#">
   
   <head>
   
@@ -8,12 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="author" content="HARUN YAHYA">
   <meta name="ROBOTS" content="INDEX, FOLLOW">
-  <link rel="amphtml" href="httpss://mercury.postlight.com/amp?url=https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">
+  <link rel="amphtml" href="https://mercury.postlight.com/amp?url=https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">
   
   
   <link rel="shortcut icon" href="../TURKISH/siteicon.png" alt=""logo"" title="logo">
   <title>ATATÜRK VE GENÇLİK</title>
-  <link rel="canonical" href="httpss://harun-yahya.github.io/TURKISH/" />
+  <link rel="canonical" href="https://harun-yahya.github.io/TURKISH/" />
   <meta name="keywords" content="ATATÜRK VE GENÇLİK HARUN YAHYA" />
   <meta name="description" content="ATATÜRK VE GENÇLİK KİTABINI OKU VEYA İNDİR.. Gençlik her millet için önemli bir kuvvettir. Bilinçli ve sorumluluk sahibi bir gençlik, o milletin umududur, geleceğinin güvencelerindendir.">
   
@@ -22,16 +22,16 @@
   <meta property="og:title" content="ATATÜRK VE GENÇLİK" />
   <meta property="og:site_name" content="HARUN YAHYA" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html" />
+  <meta property="og:url" content="https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html" />
   <meta property="og:image" content="https://harun-yahya.github.io/TURKISH/images/ATATURK-VE-GENCLIK.jpg" />
-  <meta property="og:image:secure_url" content="httpss://harun-yahya.github.io/TURKISH/images/ATATURK-VE-GENCLIK.jpg" />
+  <meta property="og:image:secure_url" content="https://harun-yahya.github.io/TURKISH/images/ATATURK-VE-GENCLIK.jpg" />
   <meta property="og:image:width" content="200" />
   <meta property="og:image:height" content="300" />
 <meta property="og:image:type" content="image/jpg" />
   <meta property="og:description" content="ATATÜRK VE GENÇLİK.. Gençlik her millet için önemli bir kuvvettir. Bilinçli ve sorumluluk sahibi bir gençlik, o milletin umududur, geleceğinin güvencelerindendir." />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:book" content="httpss://harun-yahya.github.io/TURKISH/pdf/ATATURK-VE-GENCLIK.pdf" />
+  <meta property="og:book" content="https://harun-yahya.github.io/TURKISH/pdf/ATATURK-VE-GENCLIK.pdf" />
   <meta property="og:book:author" content="HARUN YAHYA" />
   <meta property="og:book:tag" content="ATATÜRK VE GENÇLİK" />
   
@@ -111,24 +111,24 @@
             },
             facebook : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
+              url: "https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
             },
             google_plus : {
               enabled: false
             },
             email : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/pdf/ATATURK-VE-GENCLIK.pdf",
+              url: "https://harun-yahya.github.io/TURKISH/pdf/ATATURK-VE-GENCLIK.pdf",
               title: "PDF",
               description: "ATATÜRK VE GENÇLİK.. Gençlik her millet için önemli bir kuvvettir. Bilinçli ve sorumluluk sahibi bir gençlik, o milletin umududur, geleceğinin güvencelerindendir."
             },
             twitter : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
+              url: "https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
             },
             pinterest : {
             enabled: true,
-            url: "httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
+            url: "https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html"
             }
         });
       })
@@ -212,11 +212,11 @@
 
 <i class="fa fa-share-alt" aria-hidden="true"></i>
 
-<button class="button" data-sharer="tumblr" data-caption="ATATÜRK VE GENÇLİK" data-title="ATATÜRK VE GENÇLİK" data-tags="HARUN YAHYA,kitaplar,pdf" data-url="httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">Tumblr</button>
+<button class="button" data-sharer="tumblr" data-caption="ATATÜRK VE GENÇLİK" data-title="ATATÜRK VE GENÇLİK" data-tags="HARUN YAHYA,kitaplar,pdf" data-url="https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">Tumblr</button>
 
-<button class="button" data-sharer="blogger" data-url="httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html" data-title="ATATÜRK VE GENÇLİK" data-description="Gençlik her millet için önemli bir kuvvettir. Bilinçli ve sorumluluk sahibi bir gençlik, o milletin umududur, geleceğinin güvencelerindendir. Özellikle de genç bir nüfusa sahip olan Türkiye için -ülkemizde nüfusun yarısı yirmi yaşın altındadır- bu imkanın iyi değerlendirilmesi, Türk Milleti'nin hak etmiş olduğu medeni toplumlar seviyesine ulaşması için gereklidir. İçinde yer aldığı coğrafya ve sahip olduğu tarihi miras Türk Milleti'nin üzerine çok önemli sorumluluklar yüklemektedir. Aydın, milli değerlerini koruyan, ileri görüşlü genç bir neslin yetişmesi, sahip olduğumuz şanlı tarihle birleştirildiğinde, Türkiye yalnızca ileri toplumlar seviyesine ulaşmakla kalmayacak, oldukça geniş bir coğrafyada pek çok ülkeye liderlik yapabilecek konuma gelecektir. ">blogger</button>
+<button class="button" data-sharer="blogger" data-url="https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html" data-title="ATATÜRK VE GENÇLİK" data-description="Gençlik her millet için önemli bir kuvvettir. Bilinçli ve sorumluluk sahibi bir gençlik, o milletin umududur, geleceğinin güvencelerindendir. Özellikle de genç bir nüfusa sahip olan Türkiye için -ülkemizde nüfusun yarısı yirmi yaşın altındadır- bu imkanın iyi değerlendirilmesi, Türk Milleti'nin hak etmiş olduğu medeni toplumlar seviyesine ulaşması için gereklidir. İçinde yer aldığı coğrafya ve sahip olduğu tarihi miras Türk Milleti'nin üzerine çok önemli sorumluluklar yüklemektedir. Aydın, milli değerlerini koruyan, ileri görüşlü genç bir neslin yetişmesi, sahip olduğumuz şanlı tarihle birleştirildiğinde, Türkiye yalnızca ileri toplumlar seviyesine ulaşmakla kalmayacak, oldukça geniş bir coğrafyada pek çok ülkeye liderlik yapabilecek konuma gelecektir. ">blogger</button>
 
-<button class="button" data-sharer="pinterest" data-image="httpss://harun-yahya.github.io/TURKISH/images/ATATURK-VE-GENCLIK.jpg" data-url="httpss://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">Pinterest</button>
+<button class="button" data-sharer="pinterest" data-image="https://harun-yahya.github.io/TURKISH/images/ATATURK-VE-GENCLIK.jpg" data-url="https://harun-yahya.github.io/TURKISH/ATATURK-VE-GENCLIK.html">Pinterest</button>
 
           </div>
         </div>
@@ -235,13 +235,13 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   
      <!-- share buttons Js -->
-    <script defer src="httpss://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 
 <!-- shynet Js -->
 <noscript>
-<img src="httpss://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/pixel.gif" alt="counter" title="counter">
+<img src="https://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/pixel.gif" alt="counter" title="counter">
 </noscript>
-<script defer src="httpss://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/script.js"></script>
+<script defer src="https://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/script.js"></script>
 
   </body>
 

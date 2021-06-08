@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr" prefix="og: httpss://ogp.me/ns# book: httpss://ogp.me/ns/book#">
+<html lang="tr" prefix="og: https://ogp.me/ns# book: https://ogp.me/ns/book#">
   
   <head>
   
@@ -8,12 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="author" content="HARUN YAHYA">
   <meta name="ROBOTS" content="INDEX, FOLLOW">
-  <link rel="amphtml" href="httpss://mercury.postlight.com/amp?url=https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">
+  <link rel="amphtml" href="https://mercury.postlight.com/amp?url=https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">
   
   
   <link rel="shortcut icon" href="../TURKISH/siteicon.png" alt=""logo"" title="logo">
   <title>İNCİL'DE SEVGİ (HARUN YAHYA)</title>
-  <link rel="canonical" href="httpss://harun-yahya.github.io/TURKISH/" />
+  <link rel="canonical" href="https://harun-yahya.github.io/TURKISH/" />
   <meta name="keywords" content="İNCİL'DE SEVGİ HARUN YAHYA" />
   <meta name="description" content="İNCİL'DE SEVGİ KİTABINI OKU VEYA İNDİR (HARUN YAHYA).. Ve onlar, sana indirilene, senden önce indirilenlere iman ederler ve ahirete de kesin bir bilgiyle inanırlar. (Bakara Suresi, 4)">
   
@@ -22,16 +22,16 @@
   <meta property="og:title" content="İNCİL'DE SEVGİ (HARUN YAHYA)" />
   <meta property="og:site_name" content="HARUN YAHYA" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html" />
+  <meta property="og:url" content="https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html" />
   <meta property="og:image" content="https://harun-yahya.github.io/TURKISH/images/INCILDE-SEVGI.jpg" />
-  <meta property="og:image:secure_url" content="httpss://harun-yahya.github.io/TURKISH/images/INCILDE-SEVGI.jpg" />
+  <meta property="og:image:secure_url" content="https://harun-yahya.github.io/TURKISH/images/INCILDE-SEVGI.jpg" />
   <meta property="og:image:width" content="200" />
   <meta property="og:image:height" content="300" />
 <meta property="og:image:type" content="image/jpg" />
   <meta property="og:description" content="İNCİL'DE SEVGİ (HARUN YAHYA).. Ve onlar, sana indirilene, senden önce indirilenlere iman ederler ve ahirete de kesin bir bilgiyle inanırlar. (Bakara Suresi, 4)" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:book" content="httpss://harun-yahya.github.io/TURKISH/pdf/INCILDE-SEVGI.pdf" />
+  <meta property="og:book" content="https://harun-yahya.github.io/TURKISH/pdf/INCILDE-SEVGI.pdf" />
   <meta property="og:book:author" content="HARUN YAHYA" />
   <meta property="og:book:tag" content="İNCİL'DE SEVGİ" />
   
@@ -115,24 +115,24 @@
             },
             facebook : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
+              url: "https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
             },
             google_plus : {
               enabled: false
             },
             email : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/pdf/INCILDE-SEVGI.pdf",
+              url: "https://harun-yahya.github.io/TURKISH/pdf/INCILDE-SEVGI.pdf",
               title: "PDF",
               description: "İNCİL'DE SEVGİ (HARUN YAHYA).. Ve onlar, sana indirilene, senden önce indirilenlere iman ederler ve ahirete de kesin bir bilgiyle inanırlar. (Bakara Suresi, 4)"
             },
             twitter : {
               enabled: true,
-              url: "httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
+              url: "https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
             },
             pinterest : {
             enabled: true,
-            url: "httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
+            url: "https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html"
             }
         });
       })
@@ -217,11 +217,11 @@
 
 <i class="fa fa-share-alt" aria-hidden="true"></i>
 
-<button class="button" data-sharer="tumblr" data-caption="İNCİL'DE SEVGİ" data-title="İNCİL'DE SEVGİ" data-tags="HARUN YAHYA,kitaplar,pdf" data-url="httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">Tumblr</button>
+<button class="button" data-sharer="tumblr" data-caption="İNCİL'DE SEVGİ" data-title="İNCİL'DE SEVGİ" data-tags="HARUN YAHYA,kitaplar,pdf" data-url="https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">Tumblr</button>
 
-<button class="button" data-sharer="blogger" data-url="httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html" data-title="İNCİL'DE SEVGİ" data-description="Ve onlar, sana indirilene, senden önce indirilenlere iman ederler ve ahirete de kesin bir bilgiyle inanırlar. (Bakara Suresi, 4) Deyin ki: 'Biz Allah'a; bize indirilene, İbrahim, İsmail, İshak, Yakub ve torunlarına indirilene, Musa ve İsa'ya verilen ile peygamberlere Rabbinden verilene iman ettik. Onlardan hiçbirini diğerinden ayırt etmeyiz ve biz O'na teslim olmuşlarız.' (Bakara Suresi, 136)">blogger</button>
+<button class="button" data-sharer="blogger" data-url="https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html" data-title="İNCİL'DE SEVGİ" data-description="Ve onlar, sana indirilene, senden önce indirilenlere iman ederler ve ahirete de kesin bir bilgiyle inanırlar. (Bakara Suresi, 4) Deyin ki: 'Biz Allah'a; bize indirilene, İbrahim, İsmail, İshak, Yakub ve torunlarına indirilene, Musa ve İsa'ya verilen ile peygamberlere Rabbinden verilene iman ettik. Onlardan hiçbirini diğerinden ayırt etmeyiz ve biz O'na teslim olmuşlarız.' (Bakara Suresi, 136)">blogger</button>
 
-<button class="button" data-sharer="pinterest" data-image="httpss://harun-yahya.github.io/TURKISH/images/INCILDE-SEVGI.jpg" data-url="httpss://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">Pinterest</button>
+<button class="button" data-sharer="pinterest" data-image="https://harun-yahya.github.io/TURKISH/images/INCILDE-SEVGI.jpg" data-url="https://harun-yahya.github.io/TURKISH/INCILDE-SEVGI.html">Pinterest</button>
 
           </div>
         </div>
@@ -240,13 +240,13 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   
      <!-- share buttons Js -->
-    <script defer src="httpss://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 
 <!-- shynet Js -->
 <noscript>
-<img src="httpss://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/pixel.gif" alt="counter" title="counter">
+<img src="https://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/pixel.gif" alt="counter" title="counter">
 </noscript>
-<script defer src="httpss://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/script.js"></script>
+<script defer src="https://counter2000.herokuapp.com/ingress/57850343-0f4e-410c-bbcf-4ccd3c05d433/script.js"></script>
 
   </body>
 
