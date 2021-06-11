@@ -1,0 +1,7 @@
+Genişlik : 255 piksel
+grep -Ril "www.yeryuzumucizesi.com/" .
+
+find . -name 'DENIZ-ALTINDAKI-MUHTESEM-DUNYA.html' -print -exec sed -i.bak 's/www.yeryuzumucizesi.com/yeryuzumucizesi.blogspot.com/g' {} \;
+
+source /home/zeki/Belgeler/bin/activate
+optimize-images HAZRAT-MAHDI-PBUH-IN-THE-QURAN-THE-TORAH-THE-PSALMS-AND-THE-GOSPEL.jpg -mw 255
